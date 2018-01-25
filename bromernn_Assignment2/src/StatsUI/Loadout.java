@@ -1,12 +1,27 @@
+/**
+ * Nathan Bromer
+ * Assignment #1
+ * Due Date: 01/25/2018
+ * IT2040C/34/Spring 2018
+ * Description: The player's overall loadout information
+ */
 package StatsUI;
 
 public class Loadout {
+	
 	private String primary;
 	private String secondary;
 	private String leathal;
 	private String loadoutName;
 	private int numberOfPerks;
 	
+	/**
+	 * @param primary: The primary weapon the player used in their loadout
+	 * @param secondary: The secondary weapon the player used on their loadout
+	 * @param leathal: The leathal grenade type the player used on their loadout
+	 * @param loadoutName: the loadout name for a player specific loadout
+	 * @param numberOfPerks: Number of perks on a player's loadout
+	 */
 	public Loadout(String primary, String secondary, String leathal, String loadoutName, int numberOfPerks) {
 		setPrimary(primary);
 		setSecondary(secondary);

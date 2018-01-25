@@ -1,7 +1,14 @@
+/**
+ * Nathan Bromer
+ * Assignment #1
+ * Due Date: 01/25/2018
+ * IT2040C/34/Spring 2018
+ * Description: This is to show the character the player picked
+ */
 package StatsUI;
 
 public class Character {
-	
+
 	private String operatorName;
 	
 	public Character(String operatorName){

@@ -1,3 +1,10 @@
+/**
+ * Nathan Bromer
+ * Assignment #1
+ * Due Date: 01/25/2018
+ * IT2040C/34/Spring 2018
+ * Description: This class calculates and displays the player's stats on a leaderboard
+ */
 package StatsUI;
 
 public class Score {
@@ -7,6 +14,11 @@ public class Score {
 	private int deaths;
 	int score;
 	
+	/**
+	 * @param kills: The player's total kills obtained in the match
+	 * @param assists: The player's total assists obtained in the match
+	 * @param deaths: The player's total deaths in the match
+	 */
 	public Score(int kills, int assists, int deaths) {
 		setKills(kills);
 		setAssists(assists);
@@ -55,7 +67,7 @@ public class Score {
 	 * @return score
 	 */
 	public int getScore() {
-		score = kills * 100 + assists * 50;
+		score = kills * 100 + assists * 50;//Calculation of the score
 		return score;
 	}
 	public void setScore(int score) {
